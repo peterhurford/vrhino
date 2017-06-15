@@ -1,0 +1,10 @@
+Package: vrhino
+Title: Fast, accurate, lightweight, multi-core ML in R, leveraging Vowpal Wabbit
+Version: 0.0.0.9000
+Authors@R: person("Peter", "Hurford", email = "peter@peterhurford.com", role = c("aut", "cre"))
+Description: VRhino is a R package that interfaces with the Vowpal Wabbit ML library built by Microsoft Research. VRhino provides code for building and orchestrating a variety of VW models, including across multiple machines and 100's of GB of data.
+Depends: R (>= 3.4.0)
+License: Apache 2.0
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
